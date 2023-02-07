@@ -39,6 +39,6 @@ server.get('/', async (req, res) => {
   return res.send(200, {...trunk, ...await binance.prices('USDTTRY')});
 });
 
-server.listen(80, function () {
+server.listen(process.env.PORT || 8080 , '0.0.0.0', () => {
   console.log('%s listening at %s', server.name, server.url);
 });
