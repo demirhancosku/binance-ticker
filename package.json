@@ -1,0 +1,26 @@
+{
+  "name": "binance-ticker",
+  "version": "1.0.0",
+  "description": "Binance ticker api for Ahbap Wallet Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demirhancosku/binance-ticker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demirhancosku/binance-ticker/issues"
+  },
+  "homepage": "https://github.com/demirhancosku/binance-ticker#readme",
+  "dependencies": {
+    "memory-cache-node": "^1.4.0",
+    "node-binance-api": "^0.13.1",
+    "restify": "^11.0.0",
+    "underscore": "^1.13.6"
+  }
+}
